@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Laravel App</title>
-    <link rel="stylesheet" href="css/flowbite.min.css">
-    <script src="js/flowbite.min.js"></script>
-    @vite('resources/css/app.css')
-</head>
-<body class="bg-red-50">
-    <div class="container mx-auto mt-5 text-center p-3 rounded-lg shadow-md bg-white">
-        <div>
-            <p class="text-3xl capitalize"><span class="text-5xl capitalize font-norican">manies</span> 
-                cakery
-            </p>
-            <p class="text-gray-600">Delicious cakes made with love!</p>
-        </div>
+@extends('layouts.app')
+@section('title', 'Homepage')
+@section('content')
+    <div class="container mx-auto flex flex-col items-center justify-center h-screen">
+        <div class="flex flex-col items-center justify-center gap-5">
+            <h1 class="text-4xl font-bold">Welcome to Manies Cakery</h1>
+            <p class="text-lg">Delicious cakes made with love.</p>
+            <a href="#" class="bg-[#DFAC6B] text-white py-2 px-4 rounded">Contoh gaessssss</a>
+        </div>  
     </div>
-</body>
-</html>
+@endsection
