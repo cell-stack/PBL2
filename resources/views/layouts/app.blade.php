@@ -17,6 +17,7 @@
             <a href="" class="py-1 px-4 hover:text-[#DFAC6B] duration-100">Product</a>
             <a href="" class="py-1 px-4 hover:text-[#DFAC6B] duration-100">About Us</a>
             <a href="" class="py-1 px-4 hover:text-[#DFAC6B] duration-100">Login</a>
+            
         </div>
     </header>
     <main class="min-h-screen border mb-46">
@@ -40,7 +41,7 @@
             </div>
         </div>
         <div class="bg-[#493C32] text-white flex justify-center py-5">
-            <p>copyright © 2023 Manies Cakery</p>
+            <p>copyright © 2025 Manies Cakery</p>
         </div>
     </footer>
     
